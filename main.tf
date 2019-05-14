@@ -4,7 +4,7 @@ provider "google" {
   region      = "us-central1"
 }
 
-resource "google_storage_bucket" "image-store" {
+resource "google_storage_bucket" "another-bucket" {
   name     = "jacob-bucket-demo-329048302"
   location = "US"
 
