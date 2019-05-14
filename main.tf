@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "${file("~/.config/gcloud/account.json")}"
+  credentials = "${file("/home/jacob/.config/gcloud/account.json")}"
   project     = "hashi-lab"
   region      = "us-central1"
 }
